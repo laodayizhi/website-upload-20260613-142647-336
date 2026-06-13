@@ -1,0 +1,17 @@
+{
+  "site_name": "好看国产剧",
+  "movies_parsed": 2000,
+  "categories": {
+    "hot-selection": 200,
+    "domestic-drama": 200,
+    "movie-hall": 200,
+    "suspense-crime": 200,
+    "love-life": 200,
+    "action-adventure": 200,
+    "comedy-animation": 200,
+    "science-fantasy": 200,
+    "history-costume": 200,
+    "documentary-world": 200
+  },
+  "html_pages": 2018
+}

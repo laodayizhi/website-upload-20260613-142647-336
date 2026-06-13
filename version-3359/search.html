@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-高清国产片库</title>
+    <meta name="description" content="高清国产片库搜索页面，支持按影片名称、年份、地区、分类、标签快速查找电影和剧集。">
+    <meta name="keywords" content="搜索,电影搜索,高清国产片免费在线观看平台_最新电影片库-手机看电影,国产,视频,免费,在线观看,高清,影视大全">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/site.js"></script>
+    
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="高清国产片库">
+            <span class="brand-mark">▶</span>
+            <span class="brand-text">高清国产片库</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link" href="category/domestic-choice.html">国产精选</a><a class="nav-link" href="category/new-cinema.html">最新电影</a>
+        </nav>
+        <form class="header-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="mobile-menu-button" type="button" aria-label="打开导航" aria-expanded="false">☰</button>
+    </div>
+    <div class="mobile-panel" aria-label="移动导航">
+        <nav>
+            <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link" href="category/domestic-choice.html">国产精选</a><a class="nav-link" href="category/new-cinema.html">最新电影</a>
+        </nav>
+        <form action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+    </div>
+</header>
+    <main class="page-main">
+    <section class="page-hero small-hero">
+        <p class="eyebrow">Search</p>
+        <h1>影片搜索</h1>
+        <p>输入片名、年份、地区、类型或关键词，快速找到想看的影视内容。</p>
+        <form class="large-search search-page-form" action="search.html" method="get">
+            <input id="search-page-input" type="search" name="q" placeholder="搜索影片" aria-label="搜索影片">
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+    <section class="section-panel">
+        <div class="section-heading compact-heading">
+            <div>
+                <p class="eyebrow">Results</p>
+                <h2>搜索结果</h2>
+            </div>
+        </div>
+        <div id="search-results" class="movie-grid search-results"></div>
+    </section>
+</main>
+<script src="assets/js/search-data.js"></script>
+    <footer class="site-footer">
+    <div class="footer-inner">
+        <a class="footer-brand" href="index.html">高清国产片库</a>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类</a>
+            <a href="ranking.html">排行榜</a>
+            <a href="search.html">搜索</a>
+        </nav>
+        <p>专注于高清国产电影的免费在线观看平台，同步更新院线热映作品及网络热门影片。同时提供部分热播国产电视剧资源，打造内容全面的国产影视片库。</p>
+    </div>
+</footer>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
